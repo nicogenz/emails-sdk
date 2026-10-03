@@ -1,0 +1,96 @@
+{
+  "name": "@nicogenz/emails-sdk",
+  "version": "0.0.0",
+  "description": "Unified TypeScript SDK for email providers — Resend, Postmark, SendGrid, Mailgun, Amazon SES, Cloudflare",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "email",
+    "emails",
+    "transactional-email",
+    "resend",
+    "postmark",
+    "sendgrid",
+    "mailgun",
+    "ses",
+    "amazon-ses",
+    "cloudflare",
+    "sdk",
+    "typescript",
+    "cloudflare-workers",
+    "edge"
+  ],
+  "homepage": "https://emails-sdk.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicogenz/emails-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/nicogenz/emails-sdk/issues"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./cloudflare": {
+      "types": "./dist/cloudflare.d.ts",
+      "default": "./dist/cloudflare.js"
+    },
+    "./local": {
+      "types": "./dist/local.d.ts",
+      "default": "./dist/local.js"
+    },
+    "./mailgun": {
+      "types": "./dist/mailgun.d.ts",
+      "default": "./dist/mailgun.js"
+    },
+    "./postmark": {
+      "types": "./dist/postmark.d.ts",
+      "default": "./dist/postmark.js"
+    },
+    "./resend": {
+      "types": "./dist/resend.d.ts",
+      "default": "./dist/resend.js"
+    },
+    "./sendgrid": {
+      "types": "./dist/sendgrid.d.ts",
+      "default": "./dist/sendgrid.js"
+    },
+    "./ses": {
+      "types": "./dist/ses.d.ts",
+      "default": "./dist/ses.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "prepack": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.5",
+    "tsdown": "^0.22.9",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.64.0",
+    "vitest": "^4.1.10"
+  }
+}

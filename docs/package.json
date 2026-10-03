@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "description": "One TypeScript API for sending email through Resend, Postmark, SendGrid, Mailgun, Amazon SES and Cloudflare.",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build"
+  },
+  "dependencies": {
+    "docus": "latest",
+    "better-sqlite3": "^12.11.1",
+    "nuxt": "^4.4.8"
+  }
+}
