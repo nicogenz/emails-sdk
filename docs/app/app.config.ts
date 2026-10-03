@@ -6,5 +6,17 @@ export default defineAppConfig({
   },
   docus: {
     colorMode: 'dark'
-  }
+  },
+  header: {
+    logo: {
+      light: '/logo-light.svg',
+      dark: '/logo-dark.svg',
+      alt: 'emails-sdk',
+    },
+  },
+  ui: {
+    colors: {
+      primary: 'indigo',
+    },
+  },
 })
