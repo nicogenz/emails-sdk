@@ -40,6 +40,7 @@ jobs:
         run: npx nuxt generate
         env:
           NITRO_PRESET: cloudflare_pages_static
+          NUXT_SITE_URL: https://emails-sdk.com
       - name: Deploy to Cloudflare
         if: github.repository == 'nicogenz/emails-sdk'
         uses: cloudflare/wrangler-action@v3
