@@ -1,4 +1,4 @@
-# emails-sdk
+# @nicogenz/emails-sdk
 
 One TypeScript API for sending email through Resend, Postmark, SendGrid, Mailgun, Amazon SES and Cloudflare. Switching providers is a one-line change.
 

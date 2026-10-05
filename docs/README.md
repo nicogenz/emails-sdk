@@ -1,6 +1,6 @@
-# emails-sdk docs
+# @nicogenz/emails-sdk docs
 
-The documentation site for emails-sdk, built with [Docus](https://docus.dev).
+The documentation site for @nicogenz/emails-sdk, built with [Docus](https://docus.dev).
 
 ```bash
 npm install

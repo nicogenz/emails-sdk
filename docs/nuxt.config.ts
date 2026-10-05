@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   extends: ['docus'],
   site: {
-    name: 'emails-sdk',
+    name: '@nicogenz/emails-sdk',
     url: 'https://emails-sdk.com',
   },
   llms: {

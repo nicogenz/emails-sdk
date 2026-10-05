@@ -11,7 +11,7 @@ export default defineAppConfig({
     logo: {
       light: '/logo-light.svg',
       dark: '/logo-dark.svg',
-      alt: 'emails-sdk',
+      alt: '@nicogenz/emails-sdk',
     },
   },
   ui: {

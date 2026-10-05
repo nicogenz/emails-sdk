@@ -36,7 +36,7 @@ Send email through Resend, Postmark, SendGrid, Mailgun, Amazon SES or Cloudflare
 
 ::u-page-section
 #title
-Why emails-sdk
+Why @nicogenz/emails-sdk
 
 #features
   :::u-page-feature
